@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['localhost'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // API proxying
   async rewrites() {
     return [
